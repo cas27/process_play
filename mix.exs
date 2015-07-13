@@ -27,6 +27,10 @@ defmodule ProcessPlay.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:faker, "~> 0.5.0"},
+      {:csv, "~> 1.1.0"},
+      {:benchfella, "~> 0.2.0"}
+    ]
   end
 end

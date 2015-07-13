@@ -1,0 +1,4 @@
+%{"benchfella": {:hex, :benchfella, "0.2.1"},
+  "csv": {:hex, :csv, "1.1.0"},
+  "faker": {:hex, :faker, "0.5.1"},
+  "poison": {:hex, :poison, "1.4.0"}}

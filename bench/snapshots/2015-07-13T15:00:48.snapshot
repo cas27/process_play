@@ -1,0 +1,3 @@
+duration:1.0;mem stats:false;sys mem stats:false
+module;test;tags;iterations;elapsed
+WriteBench	write 100k csv lines generated through faker		1	14949726
