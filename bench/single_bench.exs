@@ -1,4 +1,4 @@
-defmodule WriteBench do
+defmodule SingleBench do
   use Benchfella
 
   bench "generate 100k lists of data through Faker" do
