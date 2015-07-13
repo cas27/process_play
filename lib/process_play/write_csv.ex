@@ -10,7 +10,7 @@ defmodule ProcessPlay.WriteCSV do
   end
 
   def generate_data do
-    for x <- 1..100_000, do: [Faker.Name.name, Faker.Address.street_address, Faker.Company.bs]
+    for _x <- 1..100_000, do: [Faker.Name.name, Faker.Address.street_address, Faker.Company.bs]
   end
 
   def p_generate_data do
